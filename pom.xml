@@ -31,7 +31,7 @@
     </scm>
     <properties>
         <rice.impex.artifactId>rice-impex-server-bootstrap</rice.impex.artifactId>
-        <rice.version>2.3.6</rice.version>
+        <rice.version>2.6.0</rice.version>
         <!-- These properties modify the release process -->
         <kuali.release.prepare.goals>clean</kuali.release.prepare.goals>
         <kuali.release.goals>deploy</kuali.release.goals>
@@ -391,7 +391,7 @@
                         <configuration>
                             <target>
                                 <delete quiet="true">
-                                    <fileset dir="${docbook.dest}/pdf" includes="**/*.fo" />
+                                    <fileset dir="${docbook.dest}/pdf" includes="**/*.fo"/>
                                 </delete>
                             </target>
                         </configuration>
@@ -843,7 +843,7 @@
         <dependency>
             <groupId>com.github.jsonld-java</groupId>
             <artifactId>jsonld-java</artifactId>
-            <version>0.5.1</version>
+            <version>0.13.0</version>
         </dependency>
 
         <dependency>
