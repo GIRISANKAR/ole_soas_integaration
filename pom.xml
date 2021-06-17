@@ -37,7 +37,7 @@
         <kuali.release.goals>deploy</kuali.release.goals>
         <kuali.release.arguments>-DskipTests</kuali.release.arguments>
         <!-- JAR versions (ordered alphabetically) -->
-        <bagit.version>4.0</bagit.version>
+        <bagit.version>5.0.0</bagit.version>
         <camel.version>2.16.1</camel.version>
         <commons-collections.version>3.2.1</commons-collections.version>
         <commons-fileupload.version>1.2.2</commons-fileupload.version>
@@ -73,7 +73,7 @@
         <spring.security.version>4.0.1.RELEASE</spring.security.version>
         <spring-webflow.version>2.3.0.RELEASE</spring-webflow.version>
         <struts.version>1.2.9</struts.version>
-        <xstream.version>1.4.1</xstream.version>
+        <xstream.version>1.4.17</xstream.version>
         <!-- JDBC Drivers -->
         <db.vendor>mysql</db.vendor>
         <mysql.groupId>mysql</mysql.groupId>
@@ -391,7 +391,7 @@
                         <configuration>
                             <target>
                                 <delete quiet="true">
-                                    <fileset dir="${docbook.dest}/pdf" includes="**/*.fo" />
+                                    <fileset dir="${docbook.dest}/pdf" includes="**/*.fo"/>
                                 </delete>
                             </target>
                         </configuration>
@@ -843,7 +843,7 @@
         <dependency>
             <groupId>com.github.jsonld-java</groupId>
             <artifactId>jsonld-java</artifactId>
-            <version>0.5.1</version>
+            <version>0.6.0</version>
         </dependency>
 
         <dependency>
