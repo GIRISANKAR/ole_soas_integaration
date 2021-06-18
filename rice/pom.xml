@@ -105,7 +105,7 @@
     <commons-digester.version>2.0</commons-digester.version>
     <commons-validator.version>1.3.1</commons-validator.version>
     <connector-api.version>1.5</connector-api.version>
-    <cxf.version>2.7.0</cxf.version>
+    <cxf.version>2.7.11</cxf.version>
     <jaxb-impl.version>2.2.6</jaxb-impl.version>
     <!--
       There appears to be a problem with the 2.2.5 version of jaxb-impl which cxf 2.7.0 depends on by default.
@@ -132,7 +132,7 @@
     <glassfish-javax-json.version>1.0.1</glassfish-javax-json.version>
     <groovy.version>1.8.5</groovy.version>
     <guava.version>11.0</guava.version>
-    <hibernate.version>3.6.9.Final</hibernate.version>
+    <hibernate.version>5.4.24.Final</hibernate.version>
     <jackson.version>1.8.8</jackson.version>
     <javassist.version>3.15.0-GA</javassist.version>
     <javax.inject.version>1</javax.inject.version>
@@ -162,7 +162,7 @@
     <persistence.version>1.0.1.Final</persistence.version>
     <!-- Quartz 1.8.5 appears to cause strange errors in spring on startup,
       Quartz 2.0.x is an impacting api and database-level change -->
-    <quartz.version>1.8.4</quartz.version>
+    <quartz.version>2.3.2</quartz.version>
     <selenium-java.version>2.33.0</selenium-java.version>
     <xalan.version>2.7.1</xalan.version>
     <serializer.version>2.7.1</serializer.version>
@@ -171,7 +171,7 @@
     <soa.model.core.version>1.2.2</soa.model.core.version>
     <httpclient.version>4.2.3</httpclient.version>
     <spring-modules-ojb.version>0.8a</spring-modules-ojb.version>
-    <spring.version>3.2.3.RELEASE</spring.version>
+    <spring.version>3.2.9.RELEASE</spring.version>
     <spring.security.version>3.1.0.RELEASE</spring.security.version>
     <struts.version>1.3.10</struts.version>
     <subethasmtp.version>3.1.6</subethasmtp.version>
@@ -963,7 +963,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -1144,7 +1144,7 @@
             <configuration>
               <target>
                 <delete quiet="true">
-                  <fileset dir="${rice.docbook.dest}/pdf" includes="**/*.fo" />
+                  <fileset dir="${rice.docbook.dest}/pdf" includes="**/*.fo"/>
                 </delete>
               </target>
             </configuration>
