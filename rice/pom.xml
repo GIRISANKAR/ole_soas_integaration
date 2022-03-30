@@ -130,7 +130,7 @@
     <closure.version>v20130603</closure.version>
     <wro4j.version>1.7.0</wro4j.version>
     <glassfish-javax-json.version>1.0.1</glassfish-javax-json.version>
-    <groovy.version>1.8.5</groovy.version>
+    <groovy.version>2.4.7</groovy.version>
     <guava.version>11.0</guava.version>
     <hibernate.version>3.6.9.Final</hibernate.version>
     <jackson.version>1.8.8</jackson.version>
@@ -963,7 +963,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -1144,7 +1144,7 @@
             <configuration>
               <target>
                 <delete quiet="true">
-                  <fileset dir="${rice.docbook.dest}/pdf" includes="**/*.fo" />
+                  <fileset dir="${rice.docbook.dest}/pdf" includes="**/*.fo"/>
                 </delete>
               </target>
             </configuration>
