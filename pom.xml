@@ -31,13 +31,13 @@
     </scm>
     <properties>
         <rice.impex.artifactId>rice-impex-server-bootstrap</rice.impex.artifactId>
-        <rice.version>2.3.6</rice.version>
+        <rice.version>2.4.0</rice.version>
         <!-- These properties modify the release process -->
         <kuali.release.prepare.goals>clean</kuali.release.prepare.goals>
         <kuali.release.goals>deploy</kuali.release.goals>
         <kuali.release.arguments>-DskipTests</kuali.release.arguments>
         <!-- JAR versions (ordered alphabetically) -->
-        <bagit.version>4.0</bagit.version>
+        <bagit.version>5.0.0</bagit.version>
         <camel.version>2.16.1</camel.version>
         <commons-collections.version>3.2.1</commons-collections.version>
         <commons-fileupload.version>1.2.2</commons-fileupload.version>
@@ -62,11 +62,11 @@
         <junit.version>4.10</junit.version>
         <marc4j.version>2.6.5</marc4j.version>
         <metridoc-camel-plugin.version>0.27</metridoc-camel-plugin.version>
-        <milyn.version>1.5</milyn.version>
+        <milyn.version>1.6</milyn.version>
         <mockito.version>1.8.5</mockito.version>
         <normalizer.version>1.0</normalizer.version>
         <servlet-api.version>2.4</servlet-api.version>
-        <slf4j.version>1.6.4</slf4j.version>
+        <slf4j.version>1.7.34</slf4j.version>
         <sli4j-slf4j-simple.version>2.0</sli4j-slf4j-simple.version>
         <solr.version>4.9.0</solr.version>
         <spring.version>4.0.1.RELEASE</spring.version>
@@ -391,7 +391,7 @@
                         <configuration>
                             <target>
                                 <delete quiet="true">
-                                    <fileset dir="${docbook.dest}/pdf" includes="**/*.fo" />
+                                    <fileset dir="${docbook.dest}/pdf" includes="**/*.fo"/>
                                 </delete>
                             </target>
                         </configuration>
