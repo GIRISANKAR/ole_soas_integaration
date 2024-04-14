@@ -76,7 +76,7 @@
         <dependency>
             <groupId>org.apache.solr</groupId>
             <artifactId>solr-velocity</artifactId>
-            <version>4.9.0</version>
+            <version>8.9.0</version>
         </dependency>
         <!--<dependency>
             <groupId>org.apache.solr</groupId>
@@ -86,7 +86,7 @@
       <dependency>
             <groupId>org.apache.solr</groupId>
             <artifactId>solr-analysis-extras</artifactId>
-            <version>4.9.0</version>
+            <version>8.0.0</version>
         </dependency>
          <dependency>
             <groupId>org.apache.lucene</groupId>
