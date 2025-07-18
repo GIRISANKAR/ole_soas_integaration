@@ -31,7 +31,7 @@
     </scm>
     <properties>
         <rice.impex.artifactId>rice-impex-server-bootstrap</rice.impex.artifactId>
-        <rice.version>2.3.6</rice.version>
+        <rice.version>2.4.0</rice.version>
         <!-- These properties modify the release process -->
         <kuali.release.prepare.goals>clean</kuali.release.prepare.goals>
         <kuali.release.goals>deploy</kuali.release.goals>
@@ -62,7 +62,7 @@
         <junit.version>4.10</junit.version>
         <marc4j.version>2.6.5</marc4j.version>
         <metridoc-camel-plugin.version>0.27</metridoc-camel-plugin.version>
-        <milyn.version>1.5</milyn.version>
+        <milyn.version>1.6</milyn.version>
         <mockito.version>1.8.5</mockito.version>
         <normalizer.version>1.0</normalizer.version>
         <servlet-api.version>2.4</servlet-api.version>
@@ -391,7 +391,7 @@
                         <configuration>
                             <target>
                                 <delete quiet="true">
-                                    <fileset dir="${docbook.dest}/pdf" includes="**/*.fo" />
+                                    <fileset dir="${docbook.dest}/pdf" includes="**/*.fo"/>
                                 </delete>
                             </target>
                         </configuration>
